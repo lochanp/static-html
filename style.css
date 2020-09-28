@@ -1,0 +1,214 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	color: #ff007f;
+}
+header {
+	width: 100vw;
+	height: 100vh;
+}
+nav {
+	width: 90%;
+	margin: 10px auto;	
+	text-align: right; 
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #ff007f;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+.tagline-container{
+	border:2px solid;
+	position: relative;
+	top: 20px;
+	width: 90%;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+	background-image:url(./images/donutsmain.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+}
+.tagline {
+	color: white;
+	font-size: 40px;
+	font-style: italic;
+	position: relative;
+	top: 200px;
+}
+.strapline-container {
+	position: absolute;
+	top: 1px;
+	left: 15px; 
+	font-family: 'Italianno';
+	font-size: 35px;
+}
+.section-title {
+	text-align: center;
+	font-size:220%;
+	margin-bottom: 25px; 
+	font-family: 'Abril Fatface', cursive;
+}
+#about {
+	width: 100vw;
+}
+.about-container {
+	width: 85%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+.left-box {
+	width: 45%;
+	word-spacing: 2px;
+	text-align: justify;
+	line-height: 200%;
+	font-weight: bold;
+	letter-spacing: 0.7px;
+}
+.right-box {
+	width: 45%;
+	position: relative;
+	left: 40px;
+}
+.top-row, .bottom-row{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.gridimg-one {
+	width: 45%;
+	height: 200px;
+	background-image: url(./images/img-3.jpg);
+	background-size: cover;
+}
+.gridimg-two {
+	width: 45%;
+	height: 200px;
+	background-image: url(./images/img-2.jpg);
+	background-size: cover;
+}
+.gridimg-three {
+	width: 45%;
+	height: 200px;
+	background-image: url(./images/img-1.jpg);
+	background-size: cover;
+}
+.gridimg-four {
+	width: 45%;
+	height: 200px;
+	background-image: url(./images/img-4.jpg);
+	background-size: cover;
+}
+.donuts-section {
+	width: 100vw
+}
+.image-container {
+	width: 100%; 
+}
+.row-one, .row-two, .row-three {
+	width: 90%; 
+	margin: 10px auto;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+.grid-item {
+	width: 30%;
+	height: 250px; 
+	margin: 15px;
+	background-size: cover;
+	background-position: center;
+
+}
+.grid-item:hover {
+	opacity: 0.80;
+} 
+#donut-one {
+	background-image: url(./images/donut1.jpg);
+}
+#donut-two {
+	background-image: url(./images/donut2.jpg);
+}
+#donut-three {
+	background-image: url(./images/donut3.jpg);
+}
+#donut-four {
+	background-image: url(./images/donut4.jpg);
+}
+#donut-five {
+	background-image: url(./images/donut5.jpg);
+}
+#donut-six {
+	background-image: url(./images/donut6.jpg);
+}
+#donut-seven {
+	background-image: url(./images/donut7.jpg);
+}
+#donut-eight {
+	background-image: url(./images/donut8.jpg);
+}
+#donut-nine {
+	background-image: url(./images/donut9.jpg);
+}
+.stores-section {
+	width: 100vw;
+}
+.stores-container {
+	width: 90%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+.store-div {
+	margin: 20px;
+	width: 30%;
+	height: 230px;
+	text-align: center;
+}
+.address {
+	padding: 15px;
+	line-height: 24px;
+	word-spacing: 1px;
+}
+.Contacts-section {
+	width: 100vw;
+	height: 50vh;
+	background-color:#ff007f;
+	text-align: center;
+	color: white;
+
+}
+.contacts-title {
+	margin: 10px auto;
+	font-size: 35px;
+	font-family: 'Abril Fatface', cursive;
+}
+.email {
+	font-size: 20px;
+}
+.social-media {
+	justify-content: center;
+	margin: 15px;
+	display: flex;
+	flex-direction: row;
+
+}
+.social-media-icon {
+	margin: 0px 7.5px;
+}
